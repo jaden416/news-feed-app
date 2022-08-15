@@ -1,0 +1,91 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+} 
+
+img{ 
+    max-width: 100%;
+    display: block;
+}
+.hero--img{
+    max-width: 90%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+ul{padding: 0;}
+p, li a{
+    font-family: 'Karla', sans-serif;
+}
+
+/* ------------------------------------ */
+.grid{
+    max-width: 90em;
+    display: grid;
+    grid-template-columns: 1fr .75fr;
+    gap: 2%;
+    margin-inline: auto;
+}
+.container{
+    width: minmax(700px, 1500px);
+    padding: 2em;
+    margin-inline: auto;
+}
+
+.flex {
+    display: flex;
+    gap: 6px;
+    
+}
+
+.flex > *{
+    flex-shrink: 1;
+}
+
+.flow > * + * {
+    margin-top: 2em;
+}
+
+
+/* ------------------------------------ */
+
+
+
+li{
+    list-style: none;
+}
+
+li a, li a::after {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.nav--flex{
+  display: flex;
+  
+  gap: 2em;
+  margin-inline: auto 50px;
+}
+
+
+
+.spacing2{
+    margin-bottom: 5 0px;
+}
+
+.spacing{
+    margin-top: 100px;
+    margin-bottom: 20em;
+}
