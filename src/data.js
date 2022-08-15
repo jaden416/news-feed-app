@@ -90,5 +90,14 @@ export default [
         tag: "Health",
         image: "https://images.unsplash.com/photo-1624024093647-c240f7944d87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHZhY2NpbmF0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
     },
+    {
+        id: 11,
+        title: "The Detroit Techno Scene",
+        desc: "A shared deep love of music, sparked a musical group composed of Derrick May, Juan Atkins, and Kevin Saunderson.",
+        dateTime: "June 9",
+        readTime: "6 min read",
+        tag: "Music",
+        image: "https://cdm.link/app/uploads/2018/11/GSGDM_113017_STILLS-37.jpg"
+    },
 ]
 
