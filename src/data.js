@@ -20,12 +20,12 @@ export default [
     },
     {
         id: 3,
-        title: "6 of The Top Remaining 2022 NBA Free Agents",
-        desc: "Covid-19 spawned a revolution in understanding how some common viruses spread and how we can stop them",
-        dateTime: "July 29",
-        readTime: "5 min read",
+        title: "Rookies shine as Cowboys flounder",
+        desc: "The first week of the NFL preseason featured a few star turns from rookie quarterbacks and wide receivers.",
+        dateTime: "July 25",
+        readTime: "6  min read",
         tag: "Sports",
-        image: "https://images.unsplash.com/photo-1612151387840-62fb3b521841?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG5iYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        image: "https://cdn.vox-cdn.com/thumbor/TgQdQz891ObaGEnBvtN8kwHcEnA=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22883249/usa_today_16788812.jpg"
     },
     {
         id: 4,
