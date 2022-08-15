@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: "Why Are Strats Good For You?",
-        desc: "Les Pauls, Danelectro's, and Rickenbacker's. Nothing comes close to Fender guitars",
+        desc: "Les Pauls, Danelectro's, and Rickenbacker's, yet nothing comes close to Fender guitars",
         dateTime: "Aug 10",
         readTime: "7 min read",
         tag: "Music",
