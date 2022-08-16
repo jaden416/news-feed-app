@@ -30,7 +30,22 @@ export default function App() {
 
   return (
     <>
-    <div className="grid container">
+    <div className='flow container'>
+      <Tags toggle = {filter}/>
+    </div>
+
+   <div className='flow container'>
+    {list.slice(0,5)}
+   </div>
+
+
+
+
+    </>
+  )
+}
+
+/* <div className="grid container">
         <div>
 
         </div>  
@@ -58,14 +73,4 @@ export default function App() {
 
     <div className="spacing grid container ">
       <div>
-        {list.slice(0,5)}
-      </div>
-      {/* Passing the function down to the component */}
-      <Tags toggle = {filter}/>
-    </div>
-
-
-    </>
-  )
-}
-
+      */

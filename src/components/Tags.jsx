@@ -11,7 +11,7 @@ export default function Tags(props){
     }
 
     return(
-        <div className=' flow '>
+        <div className='flow'>
             <h3 className='ff-sans-normal'>Topic Tags</h3>
             <div className="flex" style={gap}>
                 <input type="button" value="Health" className='ff-sans-normal input article--tag' style={style} onClick={props.toggle}/>

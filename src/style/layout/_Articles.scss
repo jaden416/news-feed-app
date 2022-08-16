@@ -1,63 +1,87 @@
-/* ARTICLE SPECIFIC */
-.article {
-    display: flex;
-    max-width: 710px;
-    min-width: 300px;
-    align-items: flex-start;
-    flex-basis: auto;
-    flex-shrink: 1;
-    flex-grow: 1;
-    justify-content: space-between;
-    margin-bottom: 1em;
+:root {
+    --fs-600: 1.5rem;
+    --fs-500: 1rem;
+    --fs-400: .8125rem;
 }
-.article--content{
-    width: 281px;
+h1 {
+    margin: 0;
+}
+p {
+    display: none;
+}
+
+body {
+    font-size: var(--fs-400);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+img{
     display: block;
-    flex-grow:2;
-}
-
-.article--content > *{
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-right: 20px;
-}
-
-.article--image > img {
-    width:  200px;
-    height: 144px;
-    border-radius: 5px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
 }
 
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', serif;
+    font-size: var(--fs-500);
+}
+p, .article--span{
+    font-family: 'Karla', article--spans-serif;
+}
+/* ------------------------------------------------------- */
+
+.article--flex{
+    margin-top: 2em;
+    display: flex;
+    gap: 10px;
+    justify-content: baseline;
+    max-width: 700px;
+    min-width: 300px;
+}
+.article--container{
+    margin-inline: 2em;
+}
+
+.article--flow > * + * {
+    margin-top: 1em;
+}
+
+/* ------------------------------------------------------- */
+
+.article--content {
+    flex: 1;
+}
+
 .article--tag{
-    width: 70px;
+    width: fit-content;
     padding: .3em 1em;
     background-color:  #D6D6D6;
     border-radius: 24px;
     border: none;
     font-family: 'Karla', sans-serif;
-    font-size: 13.33px;
-    
 }
+
 .article--span{
+    margin-right: 3px;
     color: #9F9F9F;
 }
 
-/* -------------------------------------------- */
-@media only screen and (max-width: 730px){
-    .article h1{
-        font-size: 16px;
+/* ------------------------------------------------------- */
+@media (min-width:33.125rem){
+    p {
+        display: block;
+        font-size: 1rem;
     }
-    .article p{
-        display: none;
+    span{
+        font-size: 1rem;
     }
-    img.article--image > img {
-    
-        width:  150px;
-        height: 100px;
-    }
-
-    aside{
-        display: none;
+    img {
+        width: 150px;
+        height: 144px;
     }
 }

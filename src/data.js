@@ -40,7 +40,7 @@ export default [
         id: 5,
         title: "NFL Preseason Week 1 Winners and Losers",
         desc: "Rookie quarterbacks impress, Deshaun Watson struggles in Browns debut",
-        dateTime: "August 14",
+        dateTime: "Aug 14",
         readTime: "8 min read",
         tag: "Sports",
         image: "https://sportshub.cbsistatic.com/i/r/2022/08/14/b6eb829e-dd8c-4703-98df-00f0d5efc1f3/thumbnail/770x433/109debdeff2fb54eb572d13772a57959/picketno1.jpg"
@@ -49,7 +49,7 @@ export default [
         id: 6,
         title: "Health Care Reform Looking Imminent",
         desc: "Big changes are coming for health care costs",
-        dateTime: "August 1",
+        dateTime: "Aug 1",
         readTime: "4 min read",
         tag: "Health",
         image: "https://static01.nyt.com/images/2022/08/13/opinion/13levitt_1H/13levitt_1H-superJumbo.jpg?quality=75&auto=webp"
@@ -58,7 +58,7 @@ export default [
         id: 7,
         title: "Fleet Foxes and Blood Orange Cover the Strokes’ “Under Control”: Watch",
         desc: "Both performed the track live at their respective headlining shows in New York City this weekend",
-        dateTime: "August 14",
+        dateTime: "Aug 14",
         readTime: "4 min read",
         tag: "Music",
         image: "https://media.pitchfork.com/photos/62f9401251420cb2c6a10bd7/master/pass/Fleet-foxes-blood-orange-the-strokes-cover-under-control-nyc-getty-video.png"
@@ -85,7 +85,7 @@ export default [
         id: 10,
         title: "Florida Begins Rolling Out Monkeypox Vaccines",
         desc: "In an effort to give everyone a chance at getting the shot, Florida focuses on first doses",
-        dateTime: "August 11",
+        dateTime: "Aug 11",
         readTime: "6 min read",
         tag: "Health",
         image: "https://images.unsplash.com/photo-1624024093647-c240f7944d87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHZhY2NpbmF0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
