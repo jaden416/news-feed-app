@@ -16,7 +16,7 @@ function App() {
       />
     )
   })
-
+  //Filtering the articles with the by their tag.
   function filter(event){
     const list = data
     setArticles(list.filter((article) =>{
@@ -24,7 +24,7 @@ function App() {
     }))
   }
   return (
-    <div className='container'>
+    <div className='flow container'>
       <Tag toggle={filter}/>
       {articleList}
     </div>
@@ -39,7 +39,7 @@ function Article(props){
     <div className='article-container article-flex'>
       <div className='article-content'>
         <h1>{props.article.title}</h1>
-        <p>{props.article.desc}</p>
+        <p className='desc'>{props.article.desc}</p>
         <p>{props.article.dateTime} · {props.article.readTime} · {props.article.tag}</p>
       </div>
       <img  className="article-image" src={props.article.image}/>

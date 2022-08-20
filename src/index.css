@@ -30,9 +30,17 @@ p {
   color: var(--text-accent);
 }
 
+.desc {
+  display: none;
+}
+
 /* Main classes */
 .container{
   margin-inline: 2vw;
+}
+
+.flow  {
+  margin-top: 2em;
 }
 
 /* Article classes */
@@ -81,7 +89,7 @@ p {
   }
 }
 
-@media (min-width: 56.24875em) {
+@media (min-width: 650px) {
   .article-container{
     min-height: 150px;
   }
@@ -93,6 +101,9 @@ p {
 
   h1,h2,h3,h4{
     font-size: var(--fs-600);
+  }
+  .desc{
+    display: block;
   }
 }
 
