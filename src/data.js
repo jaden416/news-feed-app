@@ -21,7 +21,7 @@ export default [
     {
         id: 3,
         title: "Rookies shine as Cowboys flounder",
-        desc: "The first week of the NFL preseason featured a few star turns from rookie quarterbacks and wide receivers.",
+        desc: "The first week of the NFL preseason featured a few star turns from rookie quarterbacks and wide receivers",
         dateTime: "July 25",
         readTime: "6  min read",
         tag: "Sports",
@@ -93,7 +93,7 @@ export default [
     {
         id: 11,
         title: "The Detroit Techno Scene",
-        desc: "A shared deep love of music, sparked a musical group composed of Derrick May, Juan Atkins, and Kevin Saunderson.",
+        desc: "A shared deep love of music, sparked a musical group composed of Derrick May, Juan Atkins, and Kevin Saunderson",
         dateTime: "June 9",
         readTime: "6 min read",
         tag: "Music",
