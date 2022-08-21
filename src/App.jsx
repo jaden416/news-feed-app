@@ -4,7 +4,7 @@ import data from './data'
 
 function App() {
   const [articles, setArticles] = useState(data)
-  
+  //Mapping out all the data from the data.js file and rendering them on the page.
   const articleList = articles.map((article)=>{
     return(
       <Article
@@ -13,7 +13,7 @@ function App() {
       />
     )
   })
-  //Filtering the articles with by their tag.
+  //Filtering the articles by their tag.
   function filter(event){
     const list = data
     setArticles(list.filter((article => article.tag === event.target.value)));
