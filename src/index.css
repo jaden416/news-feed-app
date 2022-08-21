@@ -124,11 +124,12 @@ p {
   
 }
 .tag {
+  min-width: 55px;
   border: 0.45px solid var(--bg);
   border-radius: 2px;
   background-color: #ffffff00;
   font-family: Karla, sans-serif;
-  padding: 3px 7px;
+  padding: 3px 1px;
   cursor: pointer;
 }
 

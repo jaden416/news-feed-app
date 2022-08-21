@@ -2,9 +2,6 @@ import { useState } from 'react'
 import data from './data'
 
 
-
-
-
 function App() {
   const [articles, setArticles] = useState(data)
   
@@ -16,16 +13,24 @@ function App() {
       />
     )
   })
-  //Filtering the articles with the by their tag.
+  //Filtering the articles with by their tag.
   function filter(event){
     const list = data
-    setArticles(list.filter((article) =>{
-      return article.tag === event.target.value
-    }))
+    setArticles(list.filter((article => article.tag === event.target.value)));
+  }
+
+  //Toggle button that does not filter any of the articles so the user can see all of the articles regardless of topic.
+  function filterAll(){
+    const list = data
+    setArticles(list.filter((article => article.tag !== '')));
   }
   return (
     <div className='flow container'>
-      <Tag toggle={filter}/>
+      <Tag 
+        toggleAll={filterAll}
+        toggle={filter}
+        
+      />
       {articleList}
     </div>
     )
@@ -53,6 +58,7 @@ function Tag(props){
   return(
     <div className='container'>
       <div className='tag-container tag-flex'>
+        <input className="tag" type="button" value="All" onClick={props.toggleAll}/>
         <input className="tag" type="button" value="Health" onClick={props.toggle}/>
         <input className="tag" type="button" value="Sports" onClick={props.toggle}/>
         <input className="tag" type="button" value="Music" onClick={props.toggle}/>
